@@ -42,16 +42,16 @@ public class WeatherResponse {
         private List<String> time;
         
         @JsonProperty("temperature_2m")
-        private List<Double> temperature;
+        private List<Double> temperature_2m;
         
         @JsonProperty("weather_code")
-        private List<Integer> weatherCode;
+        private List<Integer> weather_code;
         
         @JsonProperty("relative_humidity_2m")
-        private List<Integer> humidity;
+        private List<Integer> relative_humidity_2m;
         
         @JsonProperty("wind_speed_10m")
-        private List<Double> windSpeed;
+        private List<Double> wind_speed_10m;
         
         @JsonProperty("precipitation")
         private List<Double> precipitation;
@@ -60,17 +60,17 @@ public class WeatherResponse {
         public List<String> getTime() { return time; }
         public void setTime(List<String> time) { this.time = time; }
         
-        public List<Double> getTemperature() { return temperature; }
-        public void setTemperature(List<Double> temperature) { this.temperature = temperature; }
+        public List<Double> getTemperature_2m() { return temperature_2m; }
+        public void setTemperature_2m(List<Double> temperature_2m) { this.temperature_2m = temperature_2m; }
         
-        public List<Integer> getWeatherCode() { return weatherCode; }
-        public void setWeatherCode(List<Integer> weatherCode) { this.weatherCode = weatherCode; }
+        public List<Integer> getWeather_code() { return weather_code; }
+        public void setWeather_code(List<Integer> weather_code) { this.weather_code = weather_code; }
         
-        public List<Integer> getHumidity() { return humidity; }
-        public void setHumidity(List<Integer> humidity) { this.humidity = humidity; }
+        public List<Integer> getRelative_humidity_2m() { return relative_humidity_2m; }
+        public void setRelative_humidity_2m(List<Integer> relative_humidity_2m) { this.relative_humidity_2m = relative_humidity_2m; }
         
-        public List<Double> getWindSpeed() { return windSpeed; }
-        public void setWindSpeed(List<Double> windSpeed) { this.windSpeed = windSpeed; }
+        public List<Double> getWind_speed_10m() { return wind_speed_10m; }
+        public void setWind_speed_10m(List<Double> wind_speed_10m) { this.wind_speed_10m = wind_speed_10m; }
         
         public List<Double> getPrecipitation() { return precipitation; }
         public void setPrecipitation(List<Double> precipitation) { this.precipitation = precipitation; }
@@ -81,31 +81,31 @@ public class WeatherResponse {
         private List<String> time;
         
         @JsonProperty("temperature_2m_max")
-        private List<Double> temperatureMax;
+        private List<Double> temperature_2m_max;
         
         @JsonProperty("temperature_2m_min")
-        private List<Double> temperatureMin;
+        private List<Double> temperature_2m_min;
         
         @JsonProperty("weather_code")
-        private List<Integer> weatherCode;
+        private List<Integer> weather_code;
         
         @JsonProperty("precipitation_sum")
-        private List<Double> precipitation;
+        private List<Double> precipitation_sum;
         
         // Getters and Setters
         public List<String> getTime() { return time; }
         public void setTime(List<String> time) { this.time = time; }
         
-        public List<Double> getTemperatureMax() { return temperatureMax; }
-        public void setTemperatureMax(List<Double> temperatureMax) { this.temperatureMax = temperatureMax; }
+        public List<Double> getTemperature_2m_max() { return temperature_2m_max; }
+        public void setTemperature_2m_max(List<Double> temperature_2m_max) { this.temperature_2m_max = temperature_2m_max; }
         
-        public List<Double> getTemperatureMin() { return temperatureMin; }
-        public void setTemperatureMin(List<Double> temperatureMin) { this.temperatureMin = temperatureMin; }
+        public List<Double> getTemperature_2m_min() { return temperature_2m_min; }
+        public void setTemperature_2m_min(List<Double> temperature_2m_min) { this.temperature_2m_min = temperature_2m_min; }
         
-        public List<Integer> getWeatherCode() { return weatherCode; }
-        public void setWeatherCode(List<Integer> weatherCode) { this.weatherCode = weatherCode; }
+        public List<Integer> getWeather_code() { return weather_code; }
+        public void setWeather_code(List<Integer> weather_code) { this.weather_code = weather_code; }
         
-        public List<Double> getPrecipitation() { return precipitation; }
-        public void setPrecipitation(List<Double> precipitation) { this.precipitation = precipitation; }
+        public List<Double> getPrecipitation_sum() { return precipitation_sum; }
+        public void setPrecipitation_sum(List<Double> precipitation_sum) { this.precipitation_sum = precipitation_sum; }
     }
 }

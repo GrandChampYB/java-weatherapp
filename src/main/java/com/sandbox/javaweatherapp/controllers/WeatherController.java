@@ -11,7 +11,6 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/weather")
-@CrossOrigin(origins = "*")
 public class WeatherController {
     
     @Autowired
